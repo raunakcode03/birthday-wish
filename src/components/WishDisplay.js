@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import Confetti from 'react-confetti';
 import html2canvas from 'html2canvas';
-import { jsPDF } from 'jspdf';
 import './WishDisplay.css';
 
 const WishDisplay = ({ yourName, birthdayName, message, photos }) => {

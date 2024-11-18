@@ -1,0 +1,114 @@
+/* Main container with explicit background */
+.wish-container {
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    background-color: #000; /* Set black background for rendering */
+    color: #fff; /* White text for contrast */
+    min-height: 100vh; /* Ensure full height for content */
+  }
+  
+  /* Greeting Section */
+  .greeting-section {
+    padding: 50px 0;
+  }
+  
+  .birthday-text {
+    font-size: 3.5em;
+    margin-bottom: 10px;
+    text-align: center;
+    color: #ff5757; /* Bright red for contrast */
+    text-shadow: 0px 4px 8px rgba(255, 87, 87, 0.8); /* Glowing effect */
+  }
+  
+  .from-text {
+    font-size: 1.2em;
+    margin-top: 10px;
+    text-align: center;
+    color: #fff;
+  }
+  
+  /* Memories Section */
+  .gallery-section {
+    padding: 20px;
+  }
+  
+  .section-title {
+    color: #ff3c3c;
+    font-size: 2em;
+    margin: 20px 0;
+  }
+  
+  .photo-gallery {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .gallery-image {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border: 3px solid #ff3c3c;
+    border-radius: 8px;
+    transition: transform 0.3s, border-color 0.3s;
+    cursor: pointer;
+  }
+  
+  .gallery-image:hover {
+    transform: scale(1.1);
+    border-color: #fff;
+  }
+  
+  /* Message Section */
+  .message-section {
+    padding: 40px 20px;
+  }
+  
+  .birthday-message {
+    font-size: 1.5em;
+    line-height: 1.6;
+    background: rgba(255, 60, 60, 0.2);
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid #ff3c3c;
+    color: #fff; /* Ensure white text inside */
+  }
+  
+  /* Download Buttons */
+  .download-container {
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .download-button {
+    background: #ff3c3c;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  .download-button:hover {
+    background-color: #ff5757;
+    transform: scale(1.05);
+  }
+  
+  /* Watermark */
+  .watermark {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.3);
+    font-family: 'Arial', sans-serif;
+    pointer-events: none;
+  }
+  
+  

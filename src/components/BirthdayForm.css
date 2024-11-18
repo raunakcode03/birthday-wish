@@ -1,0 +1,46 @@
+.form-container {
+    background: #000; /* Black background */
+    color: #fff; /* White text */
+    padding: 40px;
+    border-radius: 12px;
+    text-align: center;
+  }
+  
+  .form-title {
+    font-size: 2.5em;
+    color: white;
+    margin-bottom: 20px;
+  }
+  
+  .birthday-form label {
+    display: block;
+    margin: 15px 0 5px;
+    font-size: 1.2em;
+  }
+  
+  .birthday-form input, .birthday-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #fff;
+    border-radius: 8px;
+    background: #333;
+    color: #fff;
+  }
+  
+  .generate-button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: transform 0.2s, background-color 0.2s;
+  }
+  
+  .generate-button:hover {
+    transform: scale(1.05);
+    background-color: #444;
+  }
+  

@@ -35,23 +35,6 @@ const WishDisplay = ({ yourName, birthdayName, message, photos }) => {
     });
   };
 
-  // Download wish as a PDF
-  const downloadWishAsPDF = () => {
-    const wishElement = document.getElementById('wish-container');
-    const pdf = new jsPDF('p', 'mm', 'a4');
-
-    pdf.html(wishElement, {
-      callback: (doc) => {
-        doc.save('birthday_wish.pdf');
-      },
-      x: 10,
-      y: 10,
-      html2canvas: {
-        scale: 0.7, // Scale down for better performance
-        backgroundColor: '#000', // Explicitly set background for PDF
-      },
-    });
-  };
 
   return (
     <div id="wish-container" className="wish-container">
